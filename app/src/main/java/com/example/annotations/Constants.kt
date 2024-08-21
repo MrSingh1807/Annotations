@@ -1,5 +1,5 @@
 package com.example.annotations
 
 object Constants {
-    const val Base_Url = ""
+    const val Base_Url = "abs"
 }
