@@ -13,4 +13,4 @@
 .externalNativeBuild
 .cxx
 local.properties
-/Users/mrsingh/AndroidStudioProjects/Annotations/app/src/main/java/com/example/annotations/Constants.kt
+com/example/annotations/constants/

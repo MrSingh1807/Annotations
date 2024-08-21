@@ -1,6 +1,6 @@
 package com.example.annotations.remoteSetup
 
-import com.example.annotations.Constants.Base_Url
+import com.example.annotations.constants.Constants.Base_Url
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
