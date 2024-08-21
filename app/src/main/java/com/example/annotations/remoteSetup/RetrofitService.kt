@@ -11,7 +11,7 @@ interface RetrofitService {
 
 
     @POST("api/fetch_restaurant_list")
-    @Headers("api_key: Zp9Qe69wrPs3Nk81")
+    @Authenticated
     suspend fun fetchRestaurantList(
         @Body request: ListRequest
     ): RestaurentListResponse

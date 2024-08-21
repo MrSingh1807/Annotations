@@ -18,7 +18,11 @@ object RetrofitModule {
     @Provides
     fun provideRetrofit() = Retrofit.Builder()
         .baseUrl(Base_Url)
-        .client(OkHttpClient.Builder().build())
+        .client(
+            OkHttpClient.Builder()
+                .addInterceptor(AuthInterceptor())
+                .build()
+        )
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 

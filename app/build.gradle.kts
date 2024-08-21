@@ -81,6 +81,7 @@ dependencies {
     implementation(libs.converter.gson)
     implementation(libs.converter.moshi)
 }
+/*
 
 composeCompiler {
     enableStrongSkippingMode = true
@@ -88,3 +89,4 @@ composeCompiler {
     reportsDestination = layout.buildDirectory.dir("compose_compiler")
     stabilityConfigurationFile = rootProject.layout.projectDirectory.file("stability_config.conf")
 }
+*/
